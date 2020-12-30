@@ -106,6 +106,11 @@
 		6525EA8C259C571300D73225 /* iOSDataPersistence */ = {
 			isa = PBXGroup;
 			children = (
+				6525EAE2259C584300D73225 /* Archive */,
+				6525EAE1259C584300D73225 /* CoreData */,
+				6525EAE0259C584300D73225 /* FileOperation */,
+				6525EAE3259C584300D73225 /* NSUserDefault */,
+				6525EAE4259C584300D73225 /* Plist */,
 				6525EA8D259C571400D73225 /* AppDelegate.h */,
 				6525EA8E259C571400D73225 /* AppDelegate.m */,
 				6525EA90259C571400D73225 /* SceneDelegate.h */,
@@ -138,6 +143,41 @@
 				6525EAB9259C571700D73225 /* Info.plist */,
 			);
 			path = iOSDataPersistenceUITests;
+			sourceTree = "<group>";
+		};
+		6525EAE0259C584300D73225 /* FileOperation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FileOperation;
+			sourceTree = "<group>";
+		};
+		6525EAE1259C584300D73225 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		6525EAE2259C584300D73225 /* Archive */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Archive;
+			sourceTree = "<group>";
+		};
+		6525EAE3259C584300D73225 /* NSUserDefault */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSUserDefault;
+			sourceTree = "<group>";
+		};
+		6525EAE4259C584300D73225 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Plist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
