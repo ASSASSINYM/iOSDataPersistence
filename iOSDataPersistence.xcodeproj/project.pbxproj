@@ -17,6 +17,7 @@
 		6525EAA3259C571700D73225 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525EAA2259C571700D73225 /* main.m */; };
 		6525EAAD259C571700D73225 /* iOSDataPersistenceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525EAAC259C571700D73225 /* iOSDataPersistenceTests.m */; };
 		6525EAB8259C571700D73225 /* iOSDataPersistenceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525EAB7259C571700D73225 /* iOSDataPersistenceUITests.m */; };
+		6525EAE7259C587600D73225 /* xxTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525EAE6259C587600D73225 /* xxTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		6525EAB3259C571700D73225 /* iOSDataPersistenceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSDataPersistenceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6525EAB7259C571700D73225 /* iOSDataPersistenceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSDataPersistenceUITests.m; sourceTree = "<group>"; };
 		6525EAB9259C571700D73225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6525EAE5259C587600D73225 /* xxTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xxTableViewCell.h; sourceTree = "<group>"; };
+		6525EAE6259C587600D73225 /* xxTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xxTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +165,8 @@
 		6525EAE2259C584300D73225 /* Archive */ = {
 			isa = PBXGroup;
 			children = (
+				6525EAE5259C587600D73225 /* xxTableViewCell.h */,
+				6525EAE6259C587600D73225 /* xxTableViewCell.m */,
 			);
 			path = Archive;
 			sourceTree = "<group>";
@@ -314,6 +319,7 @@
 				6525EA9B259C571400D73225 /* iOSDataPersistence.xcdatamodeld in Sources */,
 				6525EA8F259C571400D73225 /* AppDelegate.m in Sources */,
 				6525EA92259C571400D73225 /* SceneDelegate.m in Sources */,
+				6525EAE7259C587600D73225 /* xxTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
